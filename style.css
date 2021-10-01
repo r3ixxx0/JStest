@@ -9,16 +9,15 @@ html,body {
 }
 
 body{
-    background-color: rgb(255, 255, 255);
-    color: black;
     font-size: 10px;
     font-family: "Open Sans", sans-serif;
     width: 600px;
     margin: 0 auto;
-    padding: 0 20px 20px 20px;
+    padding: 0 20px 20px 50px;
     border: 5px solid black;
 }
 h1{
+    color: green;
     font-size: 60px;
     text-align: center;
     margin: 0; /* padding, o espaço ao redor do conteúdo (ex.: ao redor do texto de um parágrafo).border, a linha sólida do lado de fora do padding.margin, o espaço externo a um elemento.*/
