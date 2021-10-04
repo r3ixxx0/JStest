@@ -17,7 +17,7 @@ body{
     border: 5px solid black;
 }
 h1{
-    color: green;
+    color: #1fc05b;
     font-size: 60px;
     text-align: center;
     margin: 0; /* padding, o espaço ao redor do conteúdo (ex.: ao redor do texto de um parágrafo).border, a linha sólida do lado de fora do padding.margin, o espaço externo a um elemento.*/
