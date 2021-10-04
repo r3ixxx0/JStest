@@ -5,13 +5,12 @@ window.onload = function() {
         let nome = prompt('Insira seu nome') //O var armazena essa informação (variavel), o "=" significa recebe, o prompt cria uma caixa de texto onde você insere os dados 
         let sobrenome = prompt('Insira seu sobrenome') 
         let idade = parseFloat(prompt('Insira sua idade'))
-        let elemento = document.querySelector('#main')
+        let elemento = document.querySelector('main')
         if (idade >=18){
-            alert('Seja bem vindo')
-            elemento.innerText = `Olá ${nome} ${sobrenome}!! Seja bem vindo!`
+            alert(`Olá ${nome} ${sobrenome}!! Seja bem vindo!`)
         }
         if (idade <18){
-            elemento.innerText = `Olá ${nome} ${sobrenome}!! Verificamos que você é novo demais para acessar nosso site. Lamento :(`
+            alert (`Olá ${nome} ${sobrenome}!! Verificamos que você é novo demais para acessar nosso site. Lamento :(`)
         }
     }
 
