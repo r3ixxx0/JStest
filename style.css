@@ -23,7 +23,7 @@ h1{
     margin: 0; /* padding, o espaço ao redor do conteúdo (ex.: ao redor do texto de um parágrafo).border, a linha sólida do lado de fora do padding.margin, o espaço externo a um elemento.*/
     padding: 20px 0;
 }
-p, li{ /*define tamanho, cor, espaçamento e etc do item selecionado */
+p, li, #main{ /*define tamanho, cor, espaçamento e etc do item selecionado */
     font-size: 30px;
     line-height: 2;
     letter-spacing: 1px;
