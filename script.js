@@ -13,7 +13,7 @@ window.onload = function() {
 
         }
         if (idade <18){
-            alert (`Olá ${nome} ${sobrenome}!! Verificamos que você é novo demais para acessar nosso site. Lamento :(`)
+            alert (`Olá ${nome} ${sobrenome}!! Verificamos que você não é novo demais para acessar nosso site. Lamento :(`)
             elemento.innerText = `!!Não foi possivel ser feito o cadatro, verifique sua idade!!`
         }
     }
